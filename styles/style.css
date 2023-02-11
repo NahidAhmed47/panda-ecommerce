@@ -27,3 +27,7 @@
 .row-local{
     column-gap: 10px;
 }
+.bg-form{
+    background-color: #FCEAE8;
+    height: 350px;
+}
