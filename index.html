@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Panda eCommerce</title>
     <!-- Local css file -->
     <link rel="stylesheet" href="styles/style.css" />
     <!-- Bootstrap CSS link -->
@@ -53,7 +53,7 @@
                   This is the best headphone in the world for people who just
                   want to waste time in front of funky world.
                 </p>
-                <button type="button" class="btn btn-danger">Buy now</button>
+                <button id="banner-first-btn" type="button" class="btn btn-danger">Buy now</button>
               </div>
               <img
                 class="w-50"
@@ -148,7 +148,7 @@
       <section class="max-width-local pt-5 mt-5 mb-5 pb-5">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+            <div id="shoes-col1" class="col">
               <div class="card h-100 shadow">
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -156,11 +156,11 @@
                   <h3>$160</h3>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <br>
-                  <button type="button" class="btn btn-danger">Buy now</button>
+                  <button id="btn-event1" type="button" class="btn btn-danger btn-event">Buy now</button>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div id="shoes-col2" class="col">
               <div class="card h-100 shadow">
                 <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -168,11 +168,11 @@
                     <h3>$160</h3>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <br>
-                    <button type="button" class="btn btn-danger">Buy now</button>
+                    <button id="btn-event2" type="button" class="btn btn-danger btn-event">Buy now</button>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div id="shoes-col3" class="col ">
               <div class="card h-100 shadow">
                 <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -180,7 +180,7 @@
                     <h3>$160</h3>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <br>
-                    <button type="button" class="btn btn-danger">Buy now</button>
+                    <button id="btn-event3" type="button" class="btn btn-danger btn-event">Buy now</button>
                 </div>
               </div>
             </div>
@@ -191,8 +191,8 @@
       <section class="max-width-local pt-5 mt-5 mb-5 pb-5">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100 shadow">
+            <div class="col ">
+              <div class="card h-100 shadow bg">
                 <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Supply 1/50</h5>
@@ -204,7 +204,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 shadow">
+              <div class="card h-100 shadow bg">
                 <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Supply 350</h5>
@@ -216,7 +216,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 shadow">
+              <div class="card h-100 shadow bg">
                 <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Supply 350</h5>
@@ -235,9 +235,9 @@
         <div class="text-center">
             <h1>LET'S STAY IN TOUCH </h1>
             <p>Get updates on sales, specials and more</p>
-            <input type="email" name="" id="">
+            <input type="email" placeholder="type email here..." id="input-email">
             <br> <br>
-            <button type="button" class="btn btn-danger">Danger</button>
+            <button id="btn-submit" type="button" class="btn btn-danger" disabled>Submit</button>
         </div>
       </section>
     </main>
